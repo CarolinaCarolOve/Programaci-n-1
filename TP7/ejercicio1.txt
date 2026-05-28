@@ -1,0 +1,47 @@
+1. ¿Porque es importante validar los datos que ingresa un 
+usuario?
+
+    Al validar los datos que ingresa el usuario estamos verificando 
+que dichos datos sean los adecuados para que nuestro programa 
+pueda procesarlos y no nos arroje errores durante el proceso. 
+
+2. ¿Que hace strip y en que se diferencia de split?
+
+    Strip permite eliminar aquellos espacios vacíos entre 
+caracteres, esto ayuda a evitar problemas en la lectura
+de ciertas palabras, ya que la computadora lee literalmente
+cada caracter que nosotros colocamos en una cadena. 
+
+    Split cumple una función que puede parecer similar pero 
+es muy distinta. Lo que busca el split es tomar caracteres 
+como si fueran una especie de separador de los elementos 
+de una lista, interpretando una cadena de caracteres como
+una lista con sus elementos, nosotros elegimos qué caracateres 
+serán leídos como delimitadores. 
+
+    En síntesis; mientras strip solo elimina espacios vacíos, 
+split convierte una cadena de caracateres en una lista. 
+
+3. ¿Para que puede servir count cuando una linea tiene datos
+separados por comas o por punto y coma?
+
+    Count sirve en general para poder ver cuántas veces repetimos
+ciertos datos en una cadena de caracteres o en una lista,
+por lo que, si nos referimos a datos escritos en una sola línea será
+muy útil para saber cuántas palabras tenemos si contamos la cantidad 
+de comas o puntos. 
+
+4. ¿Que problema pueden traer los espacios 
+de mas al principio o al final de un dato?
+
+    El programa los contará como un caracter, entonces al aplicar 
+una función como capitalize no obtengamos el resultado esperado
+porque aplicará la mayúscula sobre el espacio vacío. También
+puede que nosotros querramos acceder a un diccionario y el 
+espacio determine que la lista no contiene ese elemento solo 
+por el espacio, inclusive, la presencia de espacios puede 
+ser un problema cuando el usuario ingresa un dato, si nosotros
+lo esperábamos sin espacios y no hemos validado que ese espacio
+sea eliminado podría no ser leído o directamente nuestro programa 
+presentaría errores. 
+
