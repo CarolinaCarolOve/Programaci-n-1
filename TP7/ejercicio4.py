@@ -7,4 +7,5 @@ if edad.strip().isnumeric():
         print("Error, el dato ingresado no ha sido validado")
 else: 
     print("Ingresa un número válido")
+    
  
