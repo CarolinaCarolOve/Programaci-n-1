@@ -13,4 +13,4 @@ if "-" in validador:
         else:
             print("Error: No hay letra")
 else: 
-    print("Error: No hay guión")
+    print("Error: No hay guion")
